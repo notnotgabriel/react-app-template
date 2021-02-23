@@ -13,3 +13,8 @@ You can get a similar (and more complete) boilerplate using the [Create App gene
 - ReactJS
 - Typescript
 - Webpack
+- Eslint
+- Prettier
+- Husky
+- Lint Staged
+- Jest
