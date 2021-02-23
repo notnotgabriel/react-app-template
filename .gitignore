@@ -3,6 +3,8 @@ coverage/
 dist/*
 node_modules/
 *.log
+.husky/_
+
 
 # OS generated files
 .DS_Store
