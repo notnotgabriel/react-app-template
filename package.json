@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
     "build": "webpack --mode production",
     "start": "webpack serve --hot --mode development",
     "lint": "eslint src/**",
