@@ -1,5 +1,7 @@
 node_modules
 dist
 src/index.html
+jest-setup.ts
 jest.config.js
 webpack.config.js
+__mocks__/fileMock.ts
