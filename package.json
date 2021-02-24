@@ -7,7 +7,7 @@
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
-    "build": "webpack --mode production",
+    "build": "NODE_ENV=production webpack --mode production",
     "start": "webpack serve --hot --mode development",
     "lint": "eslint src/**",
     "postinstall": "husky install",
